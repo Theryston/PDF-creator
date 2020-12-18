@@ -2,6 +2,10 @@
   "name": "pdf-creator",
   "version": "0.0.1",
   "description": "this is a robot that is capable of creating professional PDFs. and already know! you just need a related term or PDF content!",
+  "bin": {
+    "PDF-creator": "./index.js",
+    "PDF": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,5 +30,12 @@
   "bugs": {
     "url": "https://github.com/Theryston/PDF-creator/issues"
   },
-  "homepage": "https://github.com/Theryston/PDF-creator#readme"
+  "homepage": "https://github.com/Theryston/PDF-creator#readme",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "api2pdf": "^1.1.1",
+    "download": "^8.0.0",
+    "googleapis": "^66.0.0",
+    "request": "^2.88.2"
+  }
 }
