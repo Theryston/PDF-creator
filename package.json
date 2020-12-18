@@ -1,0 +1,30 @@
+{
+  "name": "pdf-creator",
+  "version": "0.0.1",
+  "description": "this is a robot that is capable of creating professional PDFs. and already know! you just need a related term or PDF content!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theryston/PDF-creator.git"
+  },
+  "keywords": [
+    "pdf",
+    "creator",
+    "pdf-creator",
+    "pdf-generator",
+    "robot",
+    "pdf-robot",
+    "CLI",
+    "CLI-robot",
+    "CLI-PDF"
+  ],
+  "author": "Theryston Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theryston/PDF-creator/issues"
+  },
+  "homepage": "https://github.com/Theryston/PDF-creator#readme"
+}
