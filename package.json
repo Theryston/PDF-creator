@@ -1,6 +1,6 @@
 {
   "name": "pdf-creator",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "this is a robot that is capable of creating professional PDFs. and already know! you just need a related term or PDF content!",
   "bin": {
     "PDF-creator": "./index.js",
@@ -38,5 +38,13 @@
     "download": "^8.0.0",
     "googleapis": "^66.0.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
