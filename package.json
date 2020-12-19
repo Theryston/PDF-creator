@@ -37,6 +37,7 @@
     "chalk": "^4.1.0",
     "download": "^8.0.0",
     "googleapis": "^66.0.0",
+    "open": "^7.3.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
