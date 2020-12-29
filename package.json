@@ -8,7 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -34,11 +35,11 @@
   "dependencies": {
     "algorithmia": "^0.3.10",
     "api2pdf": "^1.1.1",
+    "axios": "^0.21.1",
     "chalk": "^4.1.0",
     "download": "^8.0.0",
     "googleapis": "^66.0.0",
-    "open": "^7.3.0",
-    "request": "^2.88.2"
+    "open": "^7.3.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0"
