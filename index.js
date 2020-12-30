@@ -37,8 +37,13 @@ if (command.indexOf('-v') != -1 || command.indexOf('--version') != -1) {
 
 			} else {
 
-				console.log('alright!')
-				//call robots here
+				const TextRobot = await require('./robots/text.js')
+				const HtmlRobot = await require('./robots/HTML.js')
+				const PdfRobot = await require('./robots/PDF.js')
+				
+				const TextRobotReady = await TextRobot()
+				const HtmlRobotReady = await HtmlRobot(TextRobotReady)
+				const PdfRobotReady = await PdfRobot(HtmlRobotReady, './')
 
 			}
 
