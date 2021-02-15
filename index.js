@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const command = process.argv
 const aboutProject = require('./package.json')
 const chalk = require('chalk');
